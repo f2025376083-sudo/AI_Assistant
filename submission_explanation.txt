@@ -1,0 +1,33 @@
+SUBMISSION EXPLANATION
+
+Project Title:
+Simple LLM API Command-Line Assistant
+
+1. What I built
+I built a small command-line AI assistant using Python and an LLM API. The user can type a question or instruction, and the application sends the input to the language model and displays the generated response.
+
+2. How the request works
+The user enters text in the terminal. Python receives this input and sends it to the LLM API using the OpenAI Python SDK. The API authenticates the application using a private API key, sends the request to the selected language model, and returns the generated response. Python then prints the response in the terminal.
+
+3. Complete flow
+User input → Python application → API request → LLM → API response → Python application → displayed AI response.
+
+4. Prompt experiment
+First prompt:
+Explain what an API is in simple words.
+
+Second prompt:
+Summarize the following text in three bullet points: Artificial intelligence allows software to perform tasks that normally require human intelligence.
+
+5. Security
+The API key is stored in a .env file and is not included in the source code or GitHub repository. The .gitignore file prevents the .env file from being committed.
+
+6. Screenshots to submit
+Take screenshots showing:
+- The Python code.
+- The terminal with the application running.
+- A question entered by the user.
+- The AI response displayed successfully.
+
+7. Repository
+Upload the project files to GitHub after removing/hiding the real API key. Do not upload the .env file.
